@@ -12,5 +12,25 @@ Description:
 -The list is loaded asynchrounously to prevent the blocking of the UI
 
 
+
+To Do List:
+
+-Clear the row layout of all the useless data displayed just for testing purposes.
+
+-Add a picture to the row layout, so each task looks better in the list.
+(probably going to need a custom cursor adapter?)
+
+-Display the remaining time in each row, instead of the deadline.
+
+-Create an activity that displays statistics based on the completed/failed/active tasks
+
+-Make the app compatible with lower versions of Android (<3)
+(probably going to use the support library and work with fragments).
+
+-Maybe add support for different users.
+
+-Maybe sync it with Google Tasks.
+
+
 ------------------------------------------------------------------------------------------------------
 Contact: vladut.alex@gmail.com
