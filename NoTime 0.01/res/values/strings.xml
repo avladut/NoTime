@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">NoTime</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string android:id="@+id/string1" name="details_label" android:layout_width="wrap_content" android:layout_height="wrap_content">Task description:</string>
+    <string android:id="@+id/string1" name="details_fill" android:layout_width="wrap_content" android:layout_height="wrap_content">describe the task</string>
+    <string android:id="@+id/string1" name="state_label" android:layout_width="wrap_content" android:layout_height="wrap_content">Stata of the Task(normaly active)</string>
+    <string name="title_activity_tasks_edit">TasksEdit</string>
+    <string-array name="state_array">
+        <item >completed</item>
+        <item >active</item>
+        <item >failed</item>
+    </string-array>
+    <string name="title_label">Title for the Task</string>
+    <string name="title_fill">type the title here</string>
+    <string name="path_label">path to folder (optional)</string>
+    <string name="importance_label">Importance</string>
+    <string-array name="importance_array">
+        <item >Low</item>
+        <item >Medium</item>
+        <item >High</item>
+    </string-array>
+    <string name="deadline_label">Deadline:</string>
+    <string name="tags_label">Tags:</string>
+    <string name="tags_fill">type tags for the task</string>
+    <string name="path_fill">type the path</string>
+    <string name="menu_insert">Add Task</string>
+
+</resources>
